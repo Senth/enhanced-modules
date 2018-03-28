@@ -1,0 +1,10 @@
+{
+  "name": "enhanced-modules",
+  "version": "0.0.1",
+  "title": "Enhanced Modules",
+  "author": "Senth",
+  "homepage": "https://github.com/Senth/enhanced-modules",
+  "dependencies": ["base >= 0.16"],
+  "factorio_version": "0.16",
+  "description": "More module tiers + Raw Productivity & Raw Speed."
+}
