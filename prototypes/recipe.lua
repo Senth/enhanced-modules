@@ -16,7 +16,7 @@ data:extend({
         name = "em_speed-module-5",
         enabled = false,
         ingredients = {
-            {"speed-module-3", 7},
+            {"em_speed-module-4", 7},
             {"advanced-circuit", 15},
             {"processing-unit", 15},
         },
@@ -40,7 +40,7 @@ data:extend({
         name = "em_productivity-module-5",
         enabled = false,
         ingredients = {
-            {"productivity-module-3", 7},
+            {"em_productivity-module-4", 7},
             {"advanced-circuit", 15},
             {"processing-unit", 15},
         },
@@ -64,7 +64,7 @@ data:extend({
         name = "em_effectivity-module-5",
         enabled = false,
         ingredients = {
-            {"effectivity-module-3", 7},
+            {"em_effectivity-module-4", 7},
             {"advanced-circuit", 15},
             {"processing-unit", 15},
         },
@@ -111,8 +111,8 @@ data:extend({
         name = "em_raw-speed-module-4",
         enabled = false,
         ingredients = {
-            {"speed-module-3", 1},
-            {"effectivity-module-3", 1},
+            {"em_speed-module-4", 1},
+            {"em_effectivity-module-4", 1},
             {"em_raw-speed-module-3", 6}
         },
         energy_required = 120,
@@ -123,8 +123,8 @@ data:extend({
         name = "em_raw-speed-module-5",
         enabled = false,
         ingredients = {
-            {"em_speed-module-4", 1},
-            {"em_effectivity-module-4", 1},
+            {"em_speed-module-5", 1},
+            {"em_effectivity-module-5", 1},
             {"em_raw-speed-module-4", 7}
         },
         energy_required = 240,
@@ -172,7 +172,7 @@ data:extend({
         ingredients = {
             {"productivity-module-3", 1},
             {"effectivity-module-3", 1},
-            {"em_raw-productivity-module-3", 6}
+            {"em_raw-productivity-module-4", 6}
         },
         energy_required = 120,
         result = "em_raw-productivity-module-4",
@@ -184,7 +184,7 @@ data:extend({
         ingredients = {
             {"em_productivity-module-4", 1},
             {"em_effectivity-module-4", 1},
-            {"em_raw-productivity-module-4", 7}
+            {"em_raw-productivity-module-5", 7}
         },
         energy_required = 240,
         result = "em_raw-productivity-module-5",
