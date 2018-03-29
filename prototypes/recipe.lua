@@ -170,9 +170,9 @@ data:extend({
         name = "em_raw-productivity-module-4",
         enabled = false,
         ingredients = {
-            {"productivity-module-3", 1},
-            {"effectivity-module-3", 1},
-            {"em_raw-productivity-module-4", 6}
+            {"em_productivity-module-4", 1},
+            {"em_effectivity-module-4", 1},
+            {"em_raw-productivity-module-3", 6}
         },
         energy_required = 120,
         result = "em_raw-productivity-module-4",
@@ -182,9 +182,9 @@ data:extend({
         name = "em_raw-productivity-module-5",
         enabled = false,
         ingredients = {
-            {"em_productivity-module-4", 1},
-            {"em_effectivity-module-4", 1},
-            {"em_raw-productivity-module-5", 7}
+            {"em_productivity-module-5", 1},
+            {"em_effectivity-module-5", 1},
+            {"em_raw-productivity-module-4", 7}
         },
         energy_required = 240,
         result = "em_raw-productivity-module-5",
