@@ -67,7 +67,7 @@ data:extend({
         {
             {
                 type = "unlock-recipe",
-                recipe = "productivity-module-3"
+                recipe = "em_productivity-module-4"
             }
         },
         prerequisites = {"productivity-module-3"},
@@ -96,7 +96,7 @@ data:extend({
         {
             {
                 type = "unlock-recipe",
-                recipe = "productivity-module-5"
+                recipe = "em_productivity-module-5"
             }
         },
         prerequisites = {"productivity-module-3"},
@@ -126,7 +126,7 @@ data:extend({
         {
             {
                 type = "unlock-recipe",
-                recipe = "effectivity-module-3"
+                recipe = "em_effectivity-module-4"
             }
         },
         prerequisites = {"effectivity-module-3"},
@@ -155,7 +155,7 @@ data:extend({
         {
             {
                 type = "unlock-recipe",
-                recipe = "effectivity-module-5"
+                recipe = "em_effectivity-module-5"
             }
         },
         prerequisites = {"effectivity-module-3"},
@@ -188,7 +188,7 @@ data:extend({
                 recipe = "em_raw-productivity-module"
             }
         },
-        prerequisites = {"productivity-module-1", "effectivity-module-1"},
+        prerequisites = {"productivity-module", "effectivity-module"},
         unit =
         {
             count = 50,
@@ -269,7 +269,7 @@ data:extend({
                 recipe = "em_raw-productivity-module-4"
             }
         },
-        prerequisites = {"productivity-module-4", "effectivity-module-4", "em_raw-productivity-module-3"},
+        prerequisites = {"em_productivity-module-4", "em_effectivity-module-4", "em_raw-productivity-module-3"},
         unit =
         {
             count = 500,
@@ -298,7 +298,7 @@ data:extend({
                 recipe = "em_raw-productivity-module-5"
             }
         },
-        prerequisites = {"productivity-module-5", "effectivity-module-5", "em_raw-productivity-module-4"},
+        prerequisites = {"em_productivity-module-5", "em_effectivity-module-5", "em_raw-productivity-module-4"},
         unit =
         {
             count = 1000,
@@ -328,7 +328,7 @@ data:extend({
                 recipe = "em_raw-speed-module"
             }
         },
-        prerequisites = {"speed-module-1", "effectivity-module-1"},
+        prerequisites = {"speed-module", "effectivity-module"},
         unit =
         {
             count = 50,
@@ -409,7 +409,7 @@ data:extend({
                 recipe = "em_raw-speed-module-4"
             }
         },
-        prerequisites = {"speed-module-4", "effectivity-module-4", "em_raw-speed-module-3"},
+        prerequisites = {"em_speed-module-4", "em_effectivity-module-4", "em_raw-speed-module-3"},
         unit =
         {
             count = 500,
@@ -438,7 +438,7 @@ data:extend({
                 recipe = "em_raw-speed-module-5"
             }
         },
-        prerequisites = {"speed-module-5", "effectivity-module-5", "em_raw-speed-module-4"},
+        prerequisites = {"em_speed-module-5", "em_effectivity-module-5", "em_raw-speed-module-4"},
         unit =
         {
             count = 1000,
